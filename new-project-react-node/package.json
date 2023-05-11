@@ -1,0 +1,24 @@
+{
+  "name": "new-project-react-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "nodemon ./sever/index.js",
+    "client": "cd cliend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffran-acosta/new-project-react-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffran-acosta/new-project-react-node/issues"
+  },
+  "homepage": "https://github.com/ffran-acosta/new-project-react-node#readme",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
